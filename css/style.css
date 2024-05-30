@@ -72,6 +72,7 @@ body {
     display: flex;
     border: 1px solid var(--dark-grayish-red);
     border-radius: 300px;
+    border-right: 0px solid transparent;
     align-items: center;
     /* padding-inline-start: 1.5rem; */
     /* padding-block: 0.5rem; */
@@ -96,9 +97,11 @@ body {
 .email-arrow {
     /* background-color: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)); */
     background-color: var(--desaturated-red);
-    border-radius: 30px;
-    padding-inline: 2rem;
-    padding-block: 1.5rem;
+    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-inline: 1.7rem;
+    padding-block: 0.8rem;
 }
 header {
     grid-area: head;
