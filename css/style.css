@@ -68,26 +68,38 @@ body {
     line-height: 1.6;
     color: var(--desaturated-red);
 }
-
+.email {
+    display: flex;
+    border: 1px solid var(--dark-grayish-red);
+    border-radius: 300px;
+    align-items: center;
+    /* padding-inline-start: 1.5rem; */
+    /* padding-block: 0.5rem; */
+}
 #email {
     all:unset;
-    width:17.9rem;
+    width:13rem;
+    margin-inline-end: 0.7rem;
     padding-inline-start: 1.5rem;
-    padding-block: 0.7rem;
-    border-radius: 300px;
-    border: 1px solid var(--dark-grayish-red);
+    
 }
 
 #email::placeholder {
     color: var(--desaturated-red);
-    
+    /* padding-inline-start: 1.5rem; */
     font-size: 0.86rem;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
 }
-
+.email-arrow {
+    /* background-color: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)); */
+    background-color: var(--desaturated-red);
+    border-radius: 30px;
+    padding-inline: 2rem;
+    padding-block: 1.5rem;
+}
 header {
     grid-area: head;
     display: flex;
