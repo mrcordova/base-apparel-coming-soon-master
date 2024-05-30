@@ -46,6 +46,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     /* margin: auto; */
 }
 .card-head {
@@ -55,6 +56,8 @@ body {
     letter-spacing: .7rem;
     line-height: 1.05;
     text-align: center;
+
+    margin-block-end: 1.17rem;
 }
 .card-head>span {
     color: var(--desaturated-red);
@@ -67,6 +70,8 @@ body {
     max-width: 36ch;
     line-height: 1.6;
     color: var(--desaturated-red);
+
+    margin-block-end: 1.9rem;
 }
 .email {
     display: flex;
@@ -101,7 +106,7 @@ body {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     padding-inline: 1.7rem;
-    padding-block: 0.8rem;
+    padding-block: 0.9rem;
 }
 header {
     grid-area: head;
@@ -109,14 +114,17 @@ header {
     align-items: center;
     justify-content: flex-start;
     padding-inline-start: 2rem;
+
 }
 header>img {
     width:100px;
     /* height: 50px; */
+   
 }
 .hero-img {
     width: 100%;
     grid-area: img;
+    margin-block-end: 4rem;
 }
 
 
