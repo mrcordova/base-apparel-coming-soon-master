@@ -95,8 +95,8 @@ body {
     font-style: normal;
 }
 .email-arrow {
-    /* background-color: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)); */
-    background-color: var(--desaturated-red);
+    background: linear-gradient(135deg in hsl shorter hue, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    /* background: linear-gradient(135deg, #f8bfbf, #ee8c8c); */
     border-radius: 25px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
