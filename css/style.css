@@ -69,6 +69,22 @@ body {
     color: var(--desaturated-red);
 }
 
+#email {
+    all:unset;
+    width:17.4rem;
+    padding-inline-start: 1rem;
+}
+
+#email::placeholder {
+    color: var(--desaturated-red);
+    
+    font-size: 0.86rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
 header {
     grid-area: head;
     display: flex;
