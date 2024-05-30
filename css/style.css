@@ -60,6 +60,15 @@ body {
     color: var(--desaturated-red);
 }
 
+.card-para {
+    /* margin-inline: auto; */
+    text-align: center;
+    font-size: 0.85rem;
+    max-width: 36ch;
+    line-height: 1.6;
+    color: var(--desaturated-red);
+}
+
 header {
     grid-area: head;
     display: flex;
