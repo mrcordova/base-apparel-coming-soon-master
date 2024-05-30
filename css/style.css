@@ -4,3 +4,11 @@
 --soft-red: hsl(0, 93%, 68%);
 --dark-grayish-red: hsl(0, 6%, 24%);
 }
+
+body {
+    height: 100svh;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 100%));
+    grid-template-rows: 5.2rem 1fr;
+}
