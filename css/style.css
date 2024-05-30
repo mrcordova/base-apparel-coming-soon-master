@@ -5,6 +5,26 @@
 --dark-grayish-red: hsl(0, 6%, 24%);
 }
 
+
+.josefin-sans-300 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.josefin-sans-400 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.josefin-sans-600 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
 body {
     height: 100svh;
     display: grid;
@@ -19,6 +39,8 @@ body {
 
 .card {
     grid-area: content;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
