@@ -71,8 +71,11 @@ body {
 
 #email {
     all:unset;
-    width:17.4rem;
-    padding-inline-start: 1rem;
+    width:17.9rem;
+    padding-inline-start: 1.5rem;
+    padding-block: 0.7rem;
+    border-radius: 300px;
+    border: 1px solid var(--dark-grayish-red);
 }
 
 #email::placeholder {
