@@ -70,7 +70,7 @@ body {
 }
 .email {
     display: flex;
-    border: 1px solid var(--dark-grayish-red);
+    border: 1px solid hsl(from var(--dark-grayish-red) h s l / 0.2);
     border-radius: 300px;
     border-right: 0px solid transparent;
     align-items: center;
