@@ -9,6 +9,25 @@ body {
     height: 100svh;
     display: grid;
     place-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(50%, 100%));
+    grid-template-columns: repeat(auto-fit,100%);
     grid-template-rows: 5.2rem 1fr;
+    grid-template-areas: 
+    "head"
+    "img"
+    "content";
 }
+
+.card {
+    grid-area: content;
+}
+
+header {
+    grid-area: head;
+}
+
+.hero-img {
+    width: 100%;
+    grid-area: img;
+}
+
+
