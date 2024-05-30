@@ -9,7 +9,7 @@ body {
     height: 100svh;
     display: grid;
     place-content: center;
-    grid-template-columns: repeat(auto-fit,100%);
+    grid-template-columns: repeat(auto-fit, minmax(50%, 100%));
     grid-template-rows: 5.2rem 1fr;
     grid-template-areas: 
     "head"
@@ -23,8 +23,15 @@ body {
 
 header {
     grid-area: head;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-inline-start: 2rem;
 }
-
+header>img {
+    width:100px;
+    /* height: 50px; */
+}
 .hero-img {
     width: 100%;
     grid-area: img;
