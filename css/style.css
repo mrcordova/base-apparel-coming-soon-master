@@ -35,12 +35,28 @@ body {
     "head"
     "img"
     "content";
+    /* background-color: hsl(0, 85.71%, 97.25%); */
+    /* background-color: hsl(8.57, 77.78%, 98.24%); */
+    background-color: hsl(from var(--soft-red) h s l / 0.05);
 }
 
 .card {
     grid-area: content;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
+.card-head {
+    color: var(--dark-grayish-red);
+    max-width: 10ch;
+    font-size: 2.5rem;
+    letter-spacing: .7rem;
+    text-align: center;
+}
+.card-head>span {
+    color: var(--desaturated-red);
 }
 
 header {
