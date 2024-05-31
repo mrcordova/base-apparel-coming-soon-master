@@ -51,13 +51,22 @@ body {
 }
 .card-head {
     color: var(--dark-grayish-red);
-    max-width: 10ch;
-    font-size: 2.5rem;
-    letter-spacing: .7rem;
-    line-height: 1.05;
-    /* text-align: center; */
+
+    /* Mobile */
+    /* max-width: 10ch; */
+    /* font-size: 2.5rem; */
+    /* letter-spacing: .7rem; */
+    /* line-height: 1.05; */
+    /* margin-block-end: 1.17rem; */
+    /* margin-block-start: 4rem; */
+    /* Desktop */
+    max-width: 20ch;
+    font-size: 4rem;
+    letter-spacing: 1.05rem;
+    line-height: 1.08;
+    padding-inline-start: 10rem;
     margin-block-end: 1.17rem;
-    margin-block-start: 4rem;
+    margin-block-start: 4.5rem;
 }
 .card-head>span {
     color: var(--desaturated-red);
@@ -116,7 +125,7 @@ header {
     /* Mobile */
     /* padding-inline-start: 2rem; */
     /* Desktop */
-    padding-inline-start: 10.35rem;
+    padding-inline-start: 10rem;
 
     grid-column: 1 / span 2;
     grid-row: 1;
@@ -126,7 +135,7 @@ header>img {
     /* Mobile */
     /* width:100px; */
     /* Desktop */
-    width:9.6875rem;
+    width:9.7rem;
     
    
 }
@@ -160,10 +169,14 @@ main {
     }
 
     .card {
+        grid-column: 1 / span 1;
+        grid-row: 2;
+        /* justify-content: flex-start; */
         align-items: flex-start;
         text-align: left;
+       
     }
-
+    
     picture {
         grid-column: 2;
         grid-row: 1 / span 3;
@@ -173,10 +186,6 @@ main {
     header {
         grid-column: 1 / span 1;
     }
-    .card {
-        grid-column: 1 / span 1;
-        grid-row: 2;
-        justify-content: center;
-    }
+    
 }
 
