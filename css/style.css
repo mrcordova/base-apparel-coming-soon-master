@@ -46,6 +46,7 @@ body {
     /* flex-grow: 1; */
     grid-column: 1 / span 2;
     grid-row: 3;
+    text-align: center;
     /* margin: auto; */
 }
 .card-head {
@@ -54,7 +55,7 @@ body {
     font-size: 2.5rem;
     letter-spacing: .7rem;
     line-height: 1.05;
-    text-align: center;
+    /* text-align: center; */
     margin-block-end: 1.17rem;
     margin-block-start: 4rem;
 }
@@ -64,7 +65,7 @@ body {
 
 .card-para {
     /* margin-inline: auto; */
-    text-align: center;
+    /* text-align: center; */
     font-size: 0.85rem;
     max-width: 36ch;
     line-height: 1.6;
@@ -112,15 +113,21 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-inline-start: 2rem;
+    /* Mobile */
+    /* padding-inline-start: 2rem; */
+    /* Desktop */
+    padding-inline-start: 10.35rem;
 
     grid-column: 1 / span 2;
     grid-row: 1;
 
 }
 header>img {
-    width:100px;
-    /* height: 50px; */
+    /* Mobile */
+    /* width:100px; */
+    /* Desktop */
+    width:9.6875rem;
+    
    
 }
 .hero-img {
@@ -149,7 +156,12 @@ main {
     body {
        
         grid-template-columns: 1fr 0.74fr;
-        grid-template-rows: 5.2rem 1fr;
+        grid-template-rows: 10rem 1fr;
+    }
+
+    .card {
+        align-items: flex-start;
+        text-align: left;
     }
 
     picture {
