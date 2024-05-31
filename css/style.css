@@ -161,12 +161,17 @@ body {
     /* border-radius: 25px; */
     /* border-top-left-radius: 25px; */
     /* border-bottom-left-radius: 25px; */
+    padding-inline: clamp(1.7rem, 1.3127rem + 1.6526vw, 2.8rem);
+    padding-block: clamp(0.9rem, 0.8296rem + 0.3005vw, 1.1rem);
+
+    border-radius: clamp(1.5625rem, 1.2324rem + 1.4085vw, 2.5rem);
+    
     /* Desktop */
-    border-radius: 40px;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
-    padding-inline: 2.8rem;
-    padding-block: 1.1rem;
+    /* border-radius: 40px; */
+    /* border-top-left-radius: 40px; */
+    /* border-bottom-left-radius: 40px; */
+    /* padding-inline: 2.8rem; */
+    /* padding-block: 1.1rem; */
 }
 .email-arrow:hover {
     transform: scale(1.1, 1.1) perspective(1px);
@@ -240,6 +245,9 @@ picture {
     .card-para {
         max-width: 60ch;
         line-height: 1.75;
+    }
+    .email-arrow {
+        /* border-radius: 40px; */
     }
     .hero-img {
         height: 100%;
