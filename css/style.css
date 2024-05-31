@@ -85,19 +85,25 @@ body {
     font-size: 0.98rem;
     max-width: 60ch;
     line-height: 1.75;
-    margin-block-end: 1.9rem;
+    margin-block-end: 2.8rem;
 }
 .email {
     display: flex;
     border: 1px solid hsl(from var(--dark-grayish-red) h s l / 0.2);
-    border-radius: 300px;
-    border-right: 0px solid transparent;
     align-items: center;
-    /* padding-inline-start: 1.5rem; */
-    /* padding-block: 0.5rem; */
+    border-right: 0px solid transparent;
+    border-radius: 300px;
+  
+    /* Desktop */
+    margin-inline-start: 10rem;
 }
 #email {
     all:unset;
+    /* Mobile */
+    /* width:13rem; */
+    /* margin-inline-end: 0.7rem; */
+    /* padding-inline-start: 1.5rem; */
+    /* Desktop */
     width:13rem;
     margin-inline-end: 0.7rem;
     padding-inline-start: 1.5rem;
