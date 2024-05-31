@@ -119,10 +119,13 @@ body {
     /* margin-inline-end: 0.7rem; */
     /* padding-inline-start: 1.5rem; */
 
+    width: clamp(13rem, 10.7113rem + 9.7653vw, 19.5rem);
+    margin-inline-end: clamp(0.2rem, 0.8761rem + -0.7512vw, 0.7rem);
+    padding-inline-start: clamp(1.5rem, 1.3944rem + 0.4507vw, 1.8rem);
     /* Desktop */
-    width:19.5rem;
-    margin-inline-end: 0.2rem;
-    padding-inline-start: 1.8rem;
+    /* width:19.5rem; */
+    /* margin-inline-end: 0.2rem; */
+    /* padding-inline-start: 1.8rem; */
     
 }
 
