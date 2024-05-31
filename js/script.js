@@ -11,7 +11,7 @@ emailInput.addEventListener("input", (e) => {
     if (clicked) {
         e.currentTarget.classList.toggle("email-error", !emailInput.checkValidity() );
         emailDiv.classList.toggle("email-error-border", !emailInput.checkValidity());
-        errorMessageSpan.classList.toggle('error-hide', emailInput.checkValidity());
+        errorMessageSpan.classList.toggle('error-hide', !emailDiv.classList.contains('email-error-border'));
         
     }
 })
@@ -20,9 +20,9 @@ submitBtn.addEventListener('click', (e) => {
     e.preventDefault();
     clicked = true;
 
-    // console.log(emailInput.checkValidity())
+    
     emailInput.classList.toggle("email-error", !emailInput.checkValidity() || emailInput.value == "");
     emailDiv.classList.toggle("email-error-border", !emailInput.checkValidity()|| emailInput.value == "");
-    errorMessageSpan.classList.toggle('error-hide', emailInput.checkValidity() || emailInput.value == "");
+    errorMessageSpan.classList.toggle('error-hide',!emailDiv.classList.contains('email-error-border'));
 
 })
