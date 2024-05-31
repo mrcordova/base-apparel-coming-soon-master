@@ -180,8 +180,14 @@ body {
 }
 
 .error {
-    font-size: 0.8rem;
-    padding-inline-start: 12rem;
+    /* font-size: 0.8rem; */
+    /* font-size: 1rem; */
+    font-size: clamp(0.8rem, 1.0704rem + -0.3005vw, 1rem);
+  
+    padding-inline-start: clamp(3.7rem, 0.4254rem + 13.9718vw, 13rem);
+    /* padding-inline-start: 12rem; */
+    /* padding-inline-start: 3.7rem; */
+    align-self: flex-start;
 
     color: var(--soft-red);
 }
