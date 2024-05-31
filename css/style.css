@@ -83,13 +83,18 @@ body {
     /* max-width: 36ch; */
     /* line-height: 1.6; */
     /* margin-block-end: 1.9rem; */
-
+    
+    padding-inline-start: clamp(0rem, -3.5211rem + 15.0235vw, 10rem);
+    font-size: clamp(0.85rem, 0.8042rem + 0.1953vw, 0.98rem);
+    max-width: 36ch;
+    line-height: 1.6;
+    margin-block-end: clamp(1.9rem, 1.6887rem + 0.9014vw, 2.5rem);
     /* Desktop */
-    padding-inline-start: 10rem;
-    font-size: 0.98rem;
-    max-width: 60ch;
-    line-height: 1.75;
-    margin-block-end: 2.5rem;
+    /* padding-inline-start: 10rem; */
+    /* font-size: 0.98rem; */
+    /* max-width: 60ch; */
+    /* line-height: 1.75; */
+    /* margin-block-end: 2.5rem; */
 }
 .email {
     display: flex;
@@ -224,6 +229,10 @@ picture {
     .card-head {
         max-width: 20ch;
         line-height: 1.08;
+    }
+    .card-para {
+        max-width: 60ch;
+        line-height: 1.75;
     }
     .hero-img {
         height: 100%;
