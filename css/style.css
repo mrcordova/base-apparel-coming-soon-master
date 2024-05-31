@@ -32,8 +32,7 @@ body {
     grid-template-columns: repeat(1, minmax(50%, 100%));
     grid-template-rows: 5.2rem 0.5fr 1fr;
     
-    /* background-color: hsl(0, 85.71%, 97.25%); */
-    /* background-color: hsl(8.57, 77.78%, 98.24%); */
+ 
     background-color: hsl(from var(--soft-red) h s l / 0.05);
 }
 
@@ -41,13 +40,13 @@ body {
     grid-area: content;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+   
     align-items: center;
-    /* flex-grow: 1; */
+   
     grid-column: 1 / span 2;
     grid-row: 3;
     text-align: center;
-    /* margin: auto; */
+   
 }
 .card-head {
     color: var(--dark-grayish-red);
@@ -59,14 +58,19 @@ body {
     /* line-height: 1.05; */
     /* margin-block-end: 1.17rem; */
     /* margin-block-start: 4rem; */
+    max-width: 10ch;
+    font-size: clamp(2.5rem, 1.9718rem + 2.2535vw, 4rem);
+    letter-spacing: clamp(0.7rem, 0.5768rem + 0.5258vw, 1.05rem);
+    padding-inline-start: clamp(0rem, -3.5211rem + 15.0235vw, 10rem);
+    margin-block: clamp(4rem, 3.8239rem + 0.7512vw, 4.5rem) 1.17rem;
     /* Desktop */
-    max-width: 20ch;
-    font-size: 4rem;
-    letter-spacing: 1.05rem;
-    line-height: 1.08;
-    padding-inline-start: 10rem;
-    margin-block-end: 1.17rem;
-    margin-block-start: 4.5rem;
+    /* max-width: 20ch; */
+    /* font-size: 4rem; */
+    /* letter-spacing: 1.05rem; */
+    /* line-height: 1.08; */
+    /* padding-inline-start: 10rem; */
+    /* margin-block-end: 1.17rem; */
+    /* margin-block-start: 4.5rem; */
 }
 .card-head>span {
     color: var(--desaturated-red);
@@ -216,6 +220,10 @@ picture {
         align-items: flex-start;
         text-align: left;
        
+    }
+    .card-head {
+        max-width: 20ch;
+        line-height: 1.08;
     }
     .hero-img {
         height: 100%;
