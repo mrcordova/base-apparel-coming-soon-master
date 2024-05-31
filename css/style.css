@@ -96,9 +96,12 @@ body {
   
     /* Desktop */
     margin-inline-start: 10rem;
+    margin-block-end: 0.5rem;
 }
-#email {
+
+.email-input {
     all:unset;
+    
     /* Mobile */
     /* width:13rem; */
     /* margin-inline-end: 0.7rem; */
@@ -111,7 +114,15 @@ body {
     
 }
 
-#email::placeholder {
+.email-error {
+    background: url('../images/icon-error.svg') no-repeat right 13px center;
+}
+
+.email-error-border {
+    border: 1px solid var(--soft-red);
+}
+
+.email-input::placeholder {
     color: var(--desaturated-red);
     /* Mobile */
     /* font-size: 0.86rem; */
@@ -140,6 +151,17 @@ body {
     border-bottom-left-radius: 40px;
     padding-inline: 2.8rem;
     padding-block: 1.1rem;
+}
+
+.error {
+    font-size: 0.8rem;
+    padding-inline-start: 12rem;
+
+    color: var(--soft-red);
+}
+
+.error-hide {
+    display: none;
 }
 header {
     grid-area: head;
@@ -175,7 +197,6 @@ picture {
     grid-row: 2;
     
 }
-
 
 
 @media (min-width: 56.71rem) {

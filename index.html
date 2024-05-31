@@ -39,11 +39,12 @@
         Add your email below to stay up-to-date with announcements and our launch deals.
       </p>
       <div class="email">
-        <input  type="email" name="email" id="email" placeholder="Email Address"> 
+        <input  type="email" name="email" class="email-input "  placeholder="Email Address" aria-errormessage="msgID" aria-invalid="false"> 
         <button type="submit" class="email-arrow">
           <img  src="./images/icon-arrow.svg" alt="arrow icon" width="11" height="20">
         </button>
       </div>
+      <span id="msgID" aria-live="off" class="error josefin-sans-600 error-hide">Please provide a valid email</span>
       
     </div>
   <!-- </main> -->
