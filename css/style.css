@@ -205,7 +205,7 @@ picture {
 
 @media (min-width: 56.71rem) {
     body {
-       
+       background-image: url('../images/bg-pattern-desktop.svg');
         grid-template-columns: 1fr 0.74fr;
         grid-template-rows: 10rem 1fr;
     }
