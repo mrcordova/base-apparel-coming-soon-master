@@ -119,7 +119,7 @@ body {
 }
 
 .email-error-border {
-    border: 1px solid var(--soft-red);
+    border: 3px solid var(--soft-red);
 }
 
 .email-input::placeholder {
@@ -151,6 +151,10 @@ body {
     border-bottom-left-radius: 40px;
     padding-inline: 2.8rem;
     padding-block: 1.1rem;
+}
+.email-arrow:hover {
+    transform: scale(1.1, 1.1) perspective(1px);
+    cursor: pointer;
 }
 
 .error {
