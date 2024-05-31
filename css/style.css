@@ -123,6 +123,7 @@ body {
 .email-arrow {
     background: linear-gradient(135deg in hsl shorter hue, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     
+    box-shadow: 2px 95px 195px -28px rgba(0, 0, 0, 0.26);
 
 
     padding-inline: clamp(1.7rem, 1.3127rem + 1.6526vw, 2.8rem);
