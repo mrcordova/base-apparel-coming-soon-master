@@ -73,13 +73,18 @@ body {
 }
 
 .card-para {
-    /* margin-inline: auto; */
-    /* text-align: center; */
-    font-size: 0.85rem;
-    max-width: 36ch;
-    line-height: 1.6;
     color: var(--desaturated-red);
+   /* Mobile */
+    /* font-size: 0.85rem; */
+    /* max-width: 36ch; */
+    /* line-height: 1.6; */
+    /* margin-block-end: 1.9rem; */
 
+    /* Desktop */
+    padding-inline-start: 10rem;
+    font-size: 0.98rem;
+    max-width: 60ch;
+    line-height: 1.75;
     margin-block-end: 1.9rem;
 }
 .email {
