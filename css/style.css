@@ -142,8 +142,9 @@ body {
     /* Mobile */
     /* font-size: 0.86rem; */
 
+    font-size: clamp(0.86rem, 0.8107rem + 0.2103vw, 1rem);
     /* Desktop */
-    font-size: 1rem;
+    /* font-size: 1rem; */
 
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
