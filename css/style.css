@@ -28,7 +28,7 @@
 body {
     height: 100svh;
     display: grid;
-    place-content: center;
+    place-content: safe center;
     grid-template-columns: repeat(1, minmax(50%, 100%));
     grid-template-rows: 5.2rem 0.5fr 1fr;
     
@@ -143,6 +143,7 @@ body {
     /* font-size: 0.86rem; */
 
     font-size: clamp(0.86rem, 0.8107rem + 0.2103vw, 1rem);
+    text-align: left;
     /* Desktop */
     /* font-size: 1rem; */
 
@@ -196,8 +197,9 @@ header {
     /* Mobile */
     /* padding-inline-start: 2rem; */
 
+    padding-inline-start: clamp(2rem, -0.8169rem + 12.0188vw, 10rem);
     /* Desktop */
-    padding-inline-start: 10rem;
+    /* padding-inline-start: 10rem; */
 
     grid-column: 1 / span 2;
     grid-row: 1;
@@ -206,8 +208,9 @@ header {
 header>img {
     /* Mobile */
     /* width:100px; */
+    width: clamp(6.25rem, 5.0352rem + 5.1831vw, 9.7rem);
     /* Desktop */
-    width:9.7rem;
+    /* width:9.7rem; */
     
    
 }
